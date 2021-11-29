@@ -48,10 +48,3 @@ axios.all = function all(promises) {
 };
 axios.spread = require('./helpers/spread');
 
-// Expose isAxiosError
-axios.isAxiosError = require('./helpers/isAxiosError');
-
-module.exports = axios;
-
-// Allow use of default import syntax in TypeScript
-module.exports.default = axios;
